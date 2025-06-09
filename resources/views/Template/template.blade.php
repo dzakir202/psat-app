@@ -25,7 +25,7 @@
                 <ul class="navbar-nav fw-bold">
                     <li class="nav-item"><a class="nav-link" href="{{ route('tentang')}}">Tentang</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('galeri')}}">Galeri</a></li>
-                    <li class="nav-item nav-a"><a class="nav-link" href="#kontak">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
                 </ul>
             </div>
         </div>
