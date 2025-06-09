@@ -19,17 +19,6 @@ body {
     font-weight: 700;
 }
 
-.nav-a {
-    border-radius: 5px;
-    background-color: #0f2243;
-}
-
-.nav-a a {
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-}
-
 .img1 {
     width: 30px;
 
