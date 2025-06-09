@@ -1,0 +1,101 @@
+:root {
+    --cr-color: #0f2243;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.nav-a {
+    border-radius: 5px;
+    background-color: #0f2243;
+}
+
+.nav-a a {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.img1 {
+    width: 30px;
+
+}
+
+.footer {
+    background-color: #0f2243;
+    color: #cbd3f2;
+}
+
+.footer-column i {
+    margin-right: 8px;
+    color: #ffa726;
+}
+
+.footer-column h3 {
+    color: #ffa726;
+}
+
+.footer-bottom {
+    border-top: 1px solid #314165;
+    text-align: center;
+    padding: 1rem;
+    color: #a1afd1;
+}
+
+.hero-section {
+    height: 70vh;
+}
+
+.img-hero {
+    height: 55vh;
+    width: 90vh;
+}
+
+.hero2 {
+    background-color: #0f2243;
+    height: 50dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section3 {
+    height: 90vh;
+}
+
+.hero-section4 {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    height: 60vh;
+    background-color: #0f2243;
+    color: white;
+}
+
+.content3 {
+    height: 60vh;
+    color: #0f2243;
+    background-color: white;
+}
+
+.hero-section5 {
+    height: auto;
+}
