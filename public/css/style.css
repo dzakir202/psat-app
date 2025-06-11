@@ -1,9 +1,15 @@
 :root {
     --cr-color: #0f2243;
+    --accent-color: #ffa726;
+    --text-light: #cbd3f2;
+    --text-muted: #a1afd1;
+    --footer-border: #314165;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-brand {
@@ -21,70 +27,109 @@ body {
 
 .img1 {
     width: 30px;
-
 }
 
 .footer {
-    background-color: #0f2243;
-    color: #cbd3f2;
+    background-color: var(--cr-color);
+    color: var(--text-light);
 }
 
 .footer-column i {
     margin-right: 8px;
-    color: #ffa726;
+    color: var(--accent-color);
 }
 
 .footer-column h3 {
-    color: #ffa726;
+    color: var(--accent-color);
 }
 
 .footer-bottom {
-    border-top: 1px solid #314165;
+    border-top: 1px solid var(--footer-border);
     text-align: center;
     padding: 1rem;
-    color: #a1afd1;
+    color: var(--text-muted);
 }
 
-.hero-section {
-    height: 70vh;
-}
-
-.img-hero {
-    height: 55vh;
-    width: 90vh;
-}
-
-.hero2 {
-    background-color: #0f2243;
-    height: 50dvh;
+.hero-section,
+.hero-section3,
+.hero-section4 {
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 2rem;
 }
 
 .hero-section3 {
-    height: 90vh;
+    min-height: 90vh;
+    flex-direction: column;
 }
 
-.hero-section4 {
-    height: 70vh;
+.hero2 {
+    background-color: var(--cr-color);
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.img-hero {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content2,
+.content3 {
+    min-height: 60vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .content2 {
-    height: 60vh;
-    background-color: #0f2243;
+    background-color: var(--cr-color);
     color: white;
 }
 
 .content3 {
-    height: 60vh;
-    color: #0f2243;
     background-color: white;
+    color: var(--cr-color);
 }
 
 .hero-section5 {
     height: auto;
+}
+
+@media (max-width: 768px) {
+
+    .hero-section,
+    .hero-section3,
+    .hero-section4,
+    .hero2,
+    .content2,
+    .content3 {
+        flex-direction: column;
+        padding: 1.5rem;
+        min-height: auto;
+    }
+
+    .img-hero {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
 }
